@@ -62,8 +62,10 @@ in one command, or self-hosted with Docker.
     <td width="50%"><img src="docs/assets/readme/gallery/launch-card.png" alt="A dark 1200 by 630 card: Deploy your agent with one command"><br><sub><b>Social cards.</b> This one came from a deployed agent over the API.</sub></td>
   </tr>
   <tr>
-    <td width="50%"><img src="docs/assets/readme/gallery/x-header.png" alt="A dark X header with converging dots and the line: your iteration engine for building reliable agents"><br><sub><b>Banners and headers</b>, sized for each platform.</sub></td>
-    <td width="50%"><img src="docs/assets/readme/gallery/storyboard.jpg" alt="A twelve-frame storyboard for a 45-second film with timing, motion and sound notes"><br><sub><b>Motion.</b> Storyboard first, then a HyperFrames film.</sub></td>
+    <td colspan="2"><img src="docs/assets/readme/gallery/x-header.png" alt="A dark X header with converging dots and the line: your iteration engine for building reliable agents"><br><sub><b>Banners and headers</b>, sized for each platform.</sub></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="docs/assets/readme/gallery/storyboard.jpg" alt="The first frames of a storyboard for a 45-second film about scheduled agent runs, with timing, motion and sound notes under each frame"><br><sub><b>Motion.</b> Storyboard first, with timing, motion and sound for every frame; then a HyperFrames film.</sub></td>
   </tr>
 </table>
 
@@ -288,7 +290,7 @@ holds a credential. Host tools fetch, generate and deliver on its behalf.
   &nbsp;&nbsp;
   <a href="https://hyperframes.heygen.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heygen-com/hyperframes/main/docs/logo/dark.svg"><img src="https://raw.githubusercontent.com/heygen-com/hyperframes/main/docs/logo/light.svg" alt="HyperFrames" height="28"></picture></a>
   &nbsp;&nbsp;
-  <a href="https://paper.design"><img src="https://avatars.githubusercontent.com/u/178361271?s=56" alt="Paper" height="28"></a>
+  <a href="https://paper.design"><img src="https://avatars.githubusercontent.com/u/178361271?s=56" alt="Paper" height="28" align="absmiddle"> <b>Paper</b></a>
 </p>
 
 [Deep Agents](https://github.com/langchain-ai/deepagents) ·
