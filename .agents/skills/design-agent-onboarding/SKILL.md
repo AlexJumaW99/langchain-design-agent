@@ -27,11 +27,10 @@ by name. Do not deploy, connect accounts or publish anything until the person as
 6. **Try it.** `uv run design-agent ask "Make a LinkedIn card announcing …"`. Finals land in
    `workspace/out/<thread>/`, the last line estimates what the run cost, and `--thread <id>`
    continues a conversation.
-7. **Choose where it runs.** Explain `docs/deploy-mda.md` (managed: runtime, sandbox, Slack,
-   schedules; one command) and `docs/self-hosting.md` (Docker Compose with Postgres, your Slack app,
-   your machine). For MDA: `uv run design-agent sandbox publish` once, then
-   `uv run design-agent deploy --build-only` to inspect exactly what ships, then `deploy` when the
-   person says so. For self-hosting: `config generate DESIGN_AGENT_API_TOKENS POSTGRES_PASSWORD`,
-   then `docker compose -f deploy/self-host/compose.yaml up --build`.
-8. **Verify the deployment** with a real message in Slack (or `POST /threads/{id}/messages`): a
-   quick still, then a short storyboarded teaser. A local preflight does not prove a deployment.
+7. **Choose where it runs.** Managed Deep Agents (managed runtime, sandboxes, Slack app and
+   schedules; one command) or self-hosted (Docker Compose with Postgres and their own Slack app).
+   The [design-agent-deploy](../design-agent-deploy/SKILL.md) skill takes it from there, including
+   verifying with a real request.
+8. **What next.** Teach it the deliverable the team asks for every week
+   ([design-agent-customize](../design-agent-customize/SKILL.md)), and measure changes with
+   [design-agent-evals](../design-agent-evals/SKILL.md).
