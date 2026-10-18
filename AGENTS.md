@@ -70,8 +70,10 @@ Code and tests are the source of truth; `SPEC.md` records the product intent beh
 - Skills guide judgment; code grants capability. A skill edit cannot expose a tool or loosen policy.
 - Keep the root prompt small. Put workflows in skills, doctrine in the design wiki, brand facts in
   the brand folder. Large results go to files with compact summaries.
-- Do not copy private company data, LangChain brand assets, internal people, channels, accounts,
-  licensed fonts, third-party footage or internal implementation notes into this repository.
+- Do not copy private company data, internal people, channels, accounts, licensed fonts,
+  third-party footage or internal implementation notes into this repository. LangChain's brand
+  appears only in the README and `docs/assets/readme/` (the project's own presentation, exported
+  from its Paper designs); the agent's sample brand, skills, examples and tests stay brand-neutral.
 
 ## Change discipline
 
