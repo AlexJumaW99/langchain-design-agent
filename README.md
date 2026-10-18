@@ -16,9 +16,6 @@
     <a href="https://www.python.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/python-3.11%2B-7FC8FF.svg?variant=outline&logo=python&mode=dark"><img src="https://shieldcn.dev/badge/python-3.11%2B-006DDD.svg?variant=outline&logo=python&mode=light" alt="Python 3.11+"></picture></a>
     <a href="https://github.com/langchain-ai/deepagents"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/built%20on-Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Layers&mode=dark"><img src="https://shieldcn.dev/badge/built%20on-Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Layers&mode=light" alt="Built on Deep Agents"></picture></a>
     <a href="https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Rocket&mode=dark"><img src="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Rocket&mode=light" alt="Deploy with Managed Deep Agents"></picture></a>
-    <a href="docs/self-hosting.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/self--host-Docker-7FC8FF.svg?variant=outline&logo=docker&mode=dark"><img src="https://shieldcn.dev/badge/self--host-Docker-006DDD.svg?variant=outline&logo=docker&mode=light" alt="Self-host with Docker"></picture></a>
-    <a href="https://hyperframes.heygen.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/video-HyperFrames-7FC8FF.svg?variant=outline&logo=lu:Clapperboard&mode=dark"><img src="https://shieldcn.dev/badge/video-HyperFrames-006DDD.svg?variant=outline&logo=lu:Clapperboard&mode=light" alt="Video with HyperFrames"></picture></a>
-    <a href="https://paper.design"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/canvas-Paper-7FC8FF.svg?variant=outline&logo=lu:PenTool&mode=dark"><img src="https://shieldcn.dev/badge/canvas-Paper-006DDD.svg?variant=outline&logo=lu:PenTool&mode=light" alt="Canvas in Paper"></picture></a>
   </p>
   <p>
     <a href="#get-started">Get started</a> ·
@@ -29,16 +26,16 @@
   </p>
 </div>
 
-<p align="center">
-  <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/hero.png" alt="Design Agent at work: a Slack request for a launch film, and the agent's computer with its project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
-</p>
-
 We built Design Agent as our own design teammate at LangChain, and now it's open source.
 
 You ask for something the way you'd ask a designer: "a LinkedIn card for Thursday's launch", "turn
 this into a 2x2", "a 30-second teaser for the new release". It picks a concept, lays the piece out,
 builds it on its own computer, checks it against your brand, and posts the files back to you. For
 anything big, like a film, it shows you a storyboard first, and you approve it before it renders.
+
+<p align="center">
+  <img src="docs/assets/readme/hero.png" alt="Design Agent at work: a Slack request for a launch film, and the agent's computer with its project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
+</p>
 
 > [!NOTE]
 > Everything you see here uses LangChain's brand, because that's the brand we run it with. Out of
@@ -48,7 +45,7 @@ anything big, like a film, it shows you a storyboard first, and you approve it b
 ## See it work
 
 <p align="center">
-  <a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4"><img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/film-thumbnail.png" alt="Play the 2-minute film: How Design Agent works, one Slack request from the sandbox to the final film" width="100%"></a>
+  <a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4"><img src="docs/assets/readme/film-thumbnail.png" alt="Play the 2-minute film: How Design Agent works, one Slack request from the sandbox to the final film" width="100%"></a>
   <br><sub><b><a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4">▶ Click to watch the 2-minute film</a></b>: one Slack request, from the sandbox to skills, Paper, the helpers, HyperFrames, the checks and the sound.</sub>
 </p>
 
