@@ -8,8 +8,8 @@
     </a>
   </p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/header/dots.svg?title=Design%20Agent&subtitle=Ask%20in%20Slack%20for%20a%20card%2C%20a%20deck%2C%20a%20diagram%20or%20a%20film%2C%20and%20get%20on-brand%20files%20back&logo=lu:PenTool&font=inter&mode=dark">
-    <img src="https://shieldcn.dev/header/dots.svg?title=Design%20Agent&subtitle=Ask%20in%20Slack%20for%20a%20card%2C%20a%20deck%2C%20a%20diagram%20or%20a%20film%2C%20and%20get%20on-brand%20files%20back&logo=lu:PenTool&font=inter&mode=light" alt="Design Agent: ask in Slack for a card, a deck, a diagram or a film, and get on-brand files back" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/header-dark.png">
+    <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/header-light.png" alt="Design Agent: one design brain for your whole company" width="100%">
   </picture>
   <p>
     <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/license-Apache%202.0-7FC8FF.svg?variant=outline&logo=lu:Scale&mode=dark"><img src="https://shieldcn.dev/badge/license-Apache%202.0-006DDD.svg?variant=outline&logo=lu:Scale&mode=light" alt="License: Apache 2.0"></picture></a>
@@ -48,7 +48,7 @@ anything big, like a film, it shows you a storyboard first, and you approve it b
 ## See it work
 
 <p align="center">
-  <a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4"><img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/explainer-preview.gif" alt="From the explainer film: the lead hands out a film in three acts, and a flock of helper parrots works the act folders in parallel" width="100%"></a>
+  <a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4"><img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/film-thumbnail.png" alt="Play the 2-minute film: How Design Agent works, one Slack request from the sandbox to the final film" width="100%"></a>
   <br><sub><b><a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4">▶ Click to watch the 2-minute film</a></b>: one Slack request, from the sandbox to skills, Paper, the helpers, HyperFrames, the checks and the sound.</sub>
 </p>
 
