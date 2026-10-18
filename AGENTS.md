@@ -1,15 +1,32 @@
 # Working in this repository
 
-Build a portable, open-source design agent with one shared core and two deployment paths: Managed
+Design Agent is an open-source design agent with one shared core and two deployment paths: Managed
 Deep Agents (MDA, recommended, one command) and self-hosting (Docker). It makes on-brand stills,
 decks, diagrams, charts and motion graphics from a chat thread, on its own computer, with HyperFrames
 as the video engine and Paper as the shared canvas. Keep company-specific brands, credentials, fonts,
 reference films and operational history out of the public repository.
 
-**Setting up or using Design Agent?** Follow
-[.agents/skills/design-agent-onboarding/SKILL.md](.agents/skills/design-agent-onboarding/SKILL.md)
-(and [brand-onboarding](.agents/skills/brand-onboarding/SKILL.md) for a brand). The rest of this
-file is for changing the agent.
+## What people ask you to do here
+
+Most people open this repository to set up, brand, deploy or extend their own design agent. Each
+job has a skill in `.agents/skills/` (Claude Code also finds them through `.claude/skills`). Open the
+matching `SKILL.md` and follow it:
+
+| The person wants to… | Skill |
+| --- | --- |
+| set it up, see the demo, connect a model or Paper | [design-agent-onboarding](.agents/skills/design-agent-onboarding/SKILL.md) |
+| add their brand from a guide, website, files or a Paper file | [brand-onboarding](.agents/skills/brand-onboarding/SKILL.md) |
+| put it in their team's Slack: deploy to MDA or self-host | [design-agent-deploy](.agents/skills/design-agent-deploy/SKILL.md) |
+| teach it a new deliverable, rule or tool, or change models | [design-agent-customize](.agents/skills/design-agent-customize/SKILL.md) |
+| check whether a change made it better or worse | [design-agent-evals](.agents/skills/design-agent-evals/SKILL.md) |
+| fix something that fails | [design-agent-troubleshoot](.agents/skills/design-agent-troubleshoot/SKILL.md) |
+| update their fork to the latest version | [design-agent-update](.agents/skills/design-agent-update/SKILL.md) |
+| move HyperFrames forward (maintainers) | [vendor-sync](.agents/skills/vendor-sync/SKILL.md) |
+| cut a release (maintainers) | [release-check](.agents/skills/release-check/SKILL.md) |
+
+For anything else, start from the map of every document, [docs/README.md](docs/README.md). Never
+print a key, and ask before deploying, connecting accounts or spending money. The rest of this file
+is the contract for changing the agent itself.
 
 Code and tests are the source of truth; `SPEC.md` records the product intent behind them.
 
@@ -43,7 +60,7 @@ Code and tests are the source of truth; `SPEC.md` records the product intent beh
   third-party footage, frames or contact sheets.
 - `private-fonts/`: operator-supplied licensed fonts. Git-ignored; reach the sandbox only as
   MDA deployment files or self-host mounts.
-- `agent.py`, `identity.py`, `channels/`, `schedules/`, `sandbox/`, `memory.py`: MDA project
+- `agent.py`, `identity.py`, `channels/`, `schedules/`, `sandbox/`, `tools/mcp.py`: MDA project
   declarations. Keep them thin.
 - `src/design_agent/assembly.py`: the shared model, tools, middleware, subagents and policy.
 - `src/design_agent/harness/`: orchestration (background helpers, wake-ups, check-ins, durable

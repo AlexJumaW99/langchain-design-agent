@@ -16,258 +16,158 @@
     <a href="https://www.python.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/python-3.11%2B-7FC8FF.svg?variant=outline&logo=python&mode=dark"><img src="https://shieldcn.dev/badge/python-3.11%2B-006DDD.svg?variant=outline&logo=python&mode=light" alt="Python 3.11+"></picture></a>
     <a href="https://github.com/langchain-ai/deepagents"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/built%20on-Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Layers&mode=dark"><img src="https://shieldcn.dev/badge/built%20on-Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Layers&mode=light" alt="Built on Deep Agents"></picture></a>
     <a href="https://docs.langchain.com/langsmith/python/managed-deep-agents-overview"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Rocket&mode=dark"><img src="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Rocket&mode=light" alt="Deploy with Managed Deep Agents"></picture></a>
-    <a href="docs/self-hosting.md"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/self--host-Docker-7FC8FF.svg?variant=outline&logo=docker&mode=dark"><img src="https://shieldcn.dev/badge/self--host-Docker-006DDD.svg?variant=outline&logo=docker&mode=light" alt="Self-host with Docker"></picture></a>
-    <a href="https://hyperframes.heygen.com"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/video-HyperFrames-7FC8FF.svg?variant=outline&logo=lu:Clapperboard&mode=dark"><img src="https://shieldcn.dev/badge/video-HyperFrames-006DDD.svg?variant=outline&logo=lu:Clapperboard&mode=light" alt="Video with HyperFrames"></picture></a>
-    <a href="https://paper.design"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/canvas-Paper-7FC8FF.svg?variant=outline&logo=lu:PenTool&mode=dark"><img src="https://shieldcn.dev/badge/canvas-Paper-006DDD.svg?variant=outline&logo=lu:PenTool&mode=light" alt="Canvas in Paper"></picture></a>
   </p>
   <p>
-    <a href="#get-started">Get started</a> ·
-    <a href="#how-it-works">How it works</a> ·
-    <a href="#deploy-it">Deploy</a> ·
-    <a href="OPERATIONS.md">Docs</a> ·
-    <a href="CONTRIBUTING.md">Contributing</a>
+    <b><a href="#see-it-work">▶ Watch the 2-minute film</a></b> ·
+    <b><a href="#get-started">Get started in 5 minutes</a></b> ·
+    <a href="docs/README.md">Docs</a>
   </p>
 </div>
 
-<p align="center">
-  <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/hero.png" alt="Design Agent at work: a Slack request for a launch film, and the agent's computer with its project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
-</p>
+**Build your company's design agent, batteries included.** Fork it, add your brand, and put it in
+your team's Slack with Managed Deep Agents. People ask it like they'd ask a designer and get
+finished, on-brand graphics, decks, diagrams and films back.
 
-We built Design Agent as our own design teammate at LangChain, and now it's open source.
-
-You ask for something the way you'd ask a designer: "a LinkedIn card for Thursday's launch", "turn
-this into a 2x2", "a 30-second teaser for the new release". It picks a concept, lays the piece out,
-builds it on its own computer, checks it against your brand, and posts the files back to you. For
-anything big, like a film, it shows you a storyboard first, and you approve it before it renders.
-
-> [!NOTE]
-> Everything you see here uses LangChain's brand, because that's the brand we run it with. Out of
-> the box Design Agent uses a neutral sample brand, and it switches to yours as soon as you add
-> your brand pack (see [Make it yours](#make-it-yours)).
+It's the agent we run at LangChain. Since August it has shipped over 3,000 assets, posts with its
+work drew about 4.5M views on X, and three in four requests come from outside marketing.
 
 ## See it work
 
 <p align="center">
-  <a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4"><img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/film-thumbnail.png" alt="Play the 2-minute film: How Design Agent works, one Slack request from the sandbox to the final film" width="100%"></a>
-  <br><sub><b><a href="https://github.com/langchain-ai/design-agent/blob/main/docs/assets/readme/design-agent-explainer.mp4">▶ Click to watch the 2-minute film</a></b>: one Slack request, from the sandbox to skills, Paper, the helpers, HyperFrames, the checks and the sound.</sub>
+  <a href="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/design-agent-explainer.mp4"><img src="docs/assets/readme/film-thumbnail.png" alt="Play the 2-minute film: how Design Agent goes from one Slack request to a finished film" width="100%"></a>
 </p>
 
-## What you can ask for
+<p align="center"><sub>One Slack request for a launch film: the plan, the storyboard, helpers rendering in parallel, the checks and the final cut.</sub></p>
 
-- **Social cards and ad sets:** one layout, recomposed for every size you need. It doesn't just
-  scale it down.
-- **Slides, one-pagers and decks**, as PNG or PDF.
-- **Diagrams and charts**, drawn from your data. The numbers are computed in code, never
-  eyeballed.
-- **Thumbnails, banners and GIFs.**
-- **Short films and motion graphics:** storyboard first, then a
-  [HyperFrames](https://hyperframes.heygen.com) render, with voice, music and sound if you add
-  the keys.
-- **Work on a shared canvas:** layouts and storyboards land in [Paper](https://paper.design) as
-  editable layers, if you connect it.
+| Building it yourself | Starting here |
+| --- | --- |
+| Months on a harness, a sandbox, skills and a Slack UX | Fork it, add your brand, deploy with one command |
+| A coding agent that makes the look every AI makes | Work that follows your brand, checked on every render |
+| Design requests wait in a queue | Anyone asks in Slack: a graphic in minutes, a film overnight |
+| Every team fixes the same mistakes | Fix a skill once, and every asset after gets better |
+
+## Batteries included
+
+- **A lead agent that works for hours.** It plans, takes your notes mid-job, and hands long work to
+  helpers running in parallel.
+- **A designer's computer for every thread,** with Chrome, FFmpeg,
+  [HyperFrames](https://hyperframes.heygen.com), D2 and your fonts. Keys stay outside it.
+- **35 skills and a design wiki** for stills, decks, charts, diagrams, storyboards, motion, sound
+  and thumbnails.
+- **Your brand as code:** colours, fonts, logos and voice in one pack, checked on every render.
+- **The Slack experience:** a plan and ETA, live progress, steering mid-job, and approval before
+  anything goes public.
+- **A shared canvas** in [Paper](https://paper.design) for storyboards and layouts.
+- **Evals built from real requests,** and every run traced in LangSmith.
+- **One-command deploy** to Managed Deep Agents, or self-host it with Docker.
+- **Skills for your coding agent** to set it up, brand it, deploy it, extend it and fix it.
 
 ## Get started
 
-You need **Python 3.11+**, [uv](https://docs.astral.sh/uv/) and **Docker**. Setup takes about five
-minutes, plus a few more the first time Docker builds the agent's computer.
+**Hand it to your coding agent.** Open Claude Code, Codex or Cursor in the repo and say what you
+want. [AGENTS.md](AGENTS.md) sends it to the right [skill](.agents/skills/):
 
-**1. Install it and watch the demo.** The demo needs no API keys. It runs the real agent,
-sandbox and checks with a scripted model, and renders a launch card in three sizes plus a
-4-second teaser into `workspace/out/demo/`.
+| Say | It will |
+| --- | --- |
+| "Set up Design Agent and run the demo." | install it, build its computer, and render a demo with no API keys |
+| "Build our brand pack from our website and brand guide." | draft the pack, validate it, and ask you to review it |
+| "Deploy it to our Slack." | publish the sandbox, show you what ships, and deploy after your yes |
+| "Teach it to make our weekly newsletter header." | add a skill for it and try it on a real request |
+| "Did that change make it better?" | run the evals before and after, and show you the numbers |
+
+**Or by hand.** You need **Python 3.11+**, [uv](https://docs.astral.sh/uv/) and **Docker**. The demo
+runs the real agent, sandbox and checks with a scripted model, and leaves a launch card in three
+sizes and a 4-second teaser in `workspace/out/demo/`:
 
 ```bash
-git clone https://github.com/langchain-ai/design-agent.git
-cd design-agent
+git clone https://github.com/langchain-ai/design-agent.git && cd design-agent
 uv sync
 uv run design-agent sandbox build
 uv run design-agent demo
 ```
 
-**2. Connect a model.** Put `ANTHROPIC_API_KEY=…` in `.env` yourself, so the key stays out of your
-shell history. Then:
-
-```bash
-uv run design-agent config set DESIGN_AGENT_MODEL=anthropic:claude-opus-5-5
-uv run design-agent test model
-```
-
-**3. Ask for something.**
+Then put `ANTHROPIC_API_KEY=…` in `.env` and ask for something real. Files land in
+`workspace/out/<thread>/`, and the last line tells you what the run cost:
 
 ```bash
 uv run design-agent ask "A LinkedIn card announcing our design review service, 1200x627."
 ```
 
-Your files land in `workspace/out/<thread>/`, and the last line tells you roughly what the run
-cost. Add `--thread <id>` to keep a conversation going.
+## Why it doesn't look like AI
 
-**Rather have your coding agent set it up?** Open Claude Code, Codex or Cursor in the repo and
-paste this:
+- **It looks at its work.** It renders, then looks at the image before it posts anything.
+- **Your brand is code.** Layouts only take your tokens: your colours, fonts and spacing.
+- **It checks what a machine can count.** Colours, fonts, contrast, sizes and chart math are checked
+  in code on every render. Taste stays with your designers.
+- **Big pieces start cheap.** A film starts as a plan and a storyboard, and nothing renders until you
+  say yes.
 
-> Read AGENTS.md and .agents/skills/design-agent-onboarding/SKILL.md. Help me connect a model, add
-> my brand, connect Paper, and choose a deployment path.
+<p align="center">
+  <img src="docs/assets/readme/hero.png" alt="The agent's computer: a Slack request for a launch film, project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
+</p>
 
 ## Make it yours
 
-Your brand lives in `workspace/brand/`. It holds your colours and the role each one plays, fonts,
-logos, voice and graphic language, and it's the only place the agent learns your brand from. The
-[brand-onboarding skill](.agents/skills/brand-onboarding/SKILL.md) builds it from your brand guide,
-your website, a folder of files or a Paper file. Then `brand validate` and `fonts verify` check it.
-
-| Want | Add | More |
+| Want | Add | Guide |
 | --- | --- | --- |
-| Your brand | `workspace/brand/` (until then, the sample brand) | [brand-onboarding skill](.agents/skills/brand-onboarding/SKILL.md) |
+| Your brand | `workspace/brand/` (until then, a neutral sample brand) | [brand-onboarding skill](.agents/skills/brand-onboarding/SKILL.md) |
 | Generated images | `OPENAI_API_KEY` | [Models](docs/models.md) |
 | Voice, music, sound effects | `ELEVENLABS_API_KEY` | [sound skill](skills/sound/SKILL.md) |
-| The Paper canvas | `PAPER_MODE=local` with Paper Desktop, or `bridged` for a deployed agent | [Paper](docs/partners/paper.md) |
+| The Paper canvas | `PAPER_MODE=local` with Paper Desktop, or `bridged` when deployed | [Paper](docs/partners/paper.md) |
 | Web search, your docs, other tools | MCP servers in `config/mcp.toml` | [Customization](docs/customization.md) |
 
-Licensed fonts go in `private-fonts/`. Git ignores that folder, so they never get committed.
+Everything on this page uses LangChain's brand, because that's the one we run. Licensed fonts go in
+`private-fonts/`, which Git ignores.
 
 ## Deploy it
 
-Same agent, two ways to run it.
-
 | | Managed Deep Agents (recommended) | Self-hosted |
 | --- | --- | --- |
-| Get going | `uv run design-agent sandbox publish`, then `uv run design-agent deploy` | `docker compose -f deploy/self-host/compose.yaml up -d --build` |
+| Start | `uv run design-agent sandbox publish`, then `uv run design-agent deploy` | `docker compose -f deploy/self-host/compose.yaml up -d --build` |
 | Who runs it | LangSmith | you: the API, Postgres and a Docker host |
 | Slack | a managed app you authorize | your own Slack app |
 | Guide | [Deploy with MDA](docs/deploy-mda.md) | [Self-hosting](docs/self-hosting.md) |
 
-`deploy` shows you exactly which settings it will ship and asks before it deploys anything. Want
-to try a change without touching your team's agent? Run `deploy --name design-agent-test` and you
-get a separate copy. Managed Deep Agents needs a LangSmith organization with MDA access, and
-[hosting is paid](https://www.langchain.com/pricing). Model, image and audio usage is billed by your
-providers either way.
+`deploy` shows exactly what it will ship and asks first. `deploy --name design-agent-test` gives you
+a separate copy to try changes on.
+
+## Questions
+
+**What does it cost?** The code is free (Apache 2.0). You pay your model provider: at LangChain the
+median request costs about 50 cents in model spend, and long films and decks cost more. Managed Deep
+Agents [hosting is paid](https://www.langchain.com/pricing).
+
+**Will it use my brand?** Yes. Add your brand pack and every file follows it. Your coding agent
+builds the pack with you from your brand guide, website, files or a Paper file.
+
+**Where do I start?** With the graphic your team asks for every week. Let people brief the agent,
+review the work and ask for changes in Slack, then teach it the next thing.
+
+**Do I need Slack?** No. Use the terminal (`design-agent ask`), the self-hosted HTTP API, or a
+deployment's API.
+
+**Is it safe with my keys?** The sandbox never holds a credential and has no network by default.
+Host tools do the fetching, generating and delivering, and drop results in as files.
+
+**Which models?** Claude Opus 5.5 by default. OpenAI and Google models, any OpenAI-compatible
+endpoint and the LangSmith Gateway work too. See [Models](docs/models.md).
+
+**Does it replace a designer?** No. It takes the repetitive requests, so designers spend their time on
+the work only they can do, and their judgment lives on in its skills and checks.
 
 ## How it works
 
-Under the hood there are three parts we built for design work, sitting on top of parts we didn't
-have to build:
+The model makes the creative calls. Code does everything that has to be exactly right: rendering,
+measuring, checking, delivering files and holding your keys. It's built on the
+[Deep Agents](https://github.com/langchain-ai/deepagents) harness and runs on
+[Managed Deep Agents](https://docs.langchain.com/langsmith/python/managed-deep-agents-overview) or
+your own infrastructure.
 
-- **The lead and its helpers.** The lead reads your brief, picks the concept and writes a plan.
-  It does small jobs itself. Big ones it hands to helpers that work in parallel: three directions
-  to compare, or one act each of a film.
-- **The context.** Skills, a design wiki, your brand pack and memory. It loads only what the job
-  in front of it needs.
-- **The designer's computer.** A sandbox with real tools: Chrome, FFmpeg, HyperFrames, D2 and
-  your fonts. Everything is built and checked there.
-- **Off the shelf:** the [Deep Agents](https://github.com/langchain-ai/deepagents) harness,
-  [Managed Deep Agents](https://docs.langchain.com/langsmith/python/managed-deep-agents-overview)
-  (or your own infrastructure) and a frontier model.
+Read the [architecture](docs/architecture/README.md), or start changing it:
+[instructions.md](instructions.md) · [skills/](skills/) · [Customization](docs/customization.md) ·
+[Evals](docs/evals.md) · [Operations](OPERATIONS.md) · [Contributing](CONTRIBUTING.md).
 
-The split that matters: **the model makes the creative calls, and code does everything that has
-to be exactly right.** That means rendering, measuring, checking, delivering files and holding
-your keys.
-
-<details>
-<summary><b>The architecture, in more detail</b></summary>
-
-One assembly (`src/design_agent/assembly.py`) builds the model, tools, middleware and helpers.
-Runtime profiles plug it into Managed Deep Agents, the CLI, the self-hosted API, Slack and
-schedules.
-
-**The lead and its helpers**
-
-- Each thread gets one lead. It writes a plan in the thread's project folder and decides what to
-  delegate.
-- Helpers run in the background on the same sandbox and files. Each one has a heartbeat, a
-  durable transcript, and a lead that can steer it.
-- Nobody sits and waits. Render watchers and check-ins wake the lead when work lands, fails or
-  stalls: one-time schedules on Managed Deep Agents, an in-process waker everywhere else.
-- Before anything ships, the lead and helpers look at their own renders with a vision `look`
-  tool.
-
-**The context**
-
-- The always-on prompt is small, about 4k tokens. Workflows live in [skills](skills/)
-  (`skills/<name>/SKILL.md`) and load on demand. On Managed Deep Agents they mount read-only from
-  Context Hub.
-- Brand facts come only from the brand pack. It's staged into the sandbox with its fonts and logos.
-- Context stays bounded:
-  - Long tool results go to files, with a short summary in the conversation.
-  - Provider tool search loads MCP tools only when they're needed.
-  - Helpers can clear old tool results server-side.
-  - Prompt caching keeps the lead's prefix warm for an hour.
-
-**The designer's computer**
-
-- One recipe, [`sandbox/setup.sh`](sandbox/), pins Chrome Headless Shell, FFmpeg, HyperFrames,
-  sharp, ECharts, D2 and open fonts by version and sha256. It ends with a probe that renders a
-  page, a film and a diagram. The same recipe builds:
-  - the local and self-hosted Docker image;
-  - the LangSmith snapshot that Managed Deep Agents clones for each thread;
-  - the CI image.
-- Every thread gets its own sandbox, and its files persist in `/workspace/projects/` between turns.
-  - Locally, it's a container with no network, dropped capabilities, an unprivileged user, and
-    limits capped to your machine.
-  - On Managed Deep Agents, it's a LangSmith sandbox (16 GiB disk, 8 vCPU) with default-deny
-    egress.
-- Before a run, a manifest with a sha256 checklist stages skills, the checks, your brand pack and
-  its fonts into `/workspace`, read-only.
-
-**The checks** ([`workspace/tools/`](workspace/tools/README.md)) run before anything is delivered:
-
-| Check | What it catches |
-| --- | --- |
-| `brand-lint` | off-brand colours, fonts, radii and copy |
-| `video-gate`, `hyperframes check` | non-deterministic animation, layout, motion and contrast problems |
-| `artifact-contract` | a wrong size or duration, a missing file, a blank first frame |
-| font check | a brand font that silently fell back, web fonts included |
-| chart and graph contracts | truncated baselines, mixed units, shares that don't add up to 100%, a diagram that changed shape |
-
-**Keys stay outside.** The sandbox never holds a credential. Host tools run next to the agent,
-keep the keys, and drop their results in as files:
-
-- image generation;
-- voice, music and sound effects;
-- transcription;
-- an asset fetcher with SSRF protection;
-- Paper, scoped by a policy;
-- your MCP servers;
-- delivery: to Slack, to `workspace/out/` locally, or attached to the LangSmith trace for API
-  runs.
-
-**Where each piece runs**
-
-| | Managed Deep Agents | Self-hosted |
-| --- | --- | --- |
-| Agent | `agent.py` (`define_deep_agent`), `identity.py`, `tools/mcp.py` | the same assembly in a FastAPI app |
-| Threads and memory | LangSmith | Postgres checkpointer and store |
-| Sandboxes | LangSmith sandboxes from your snapshot (`sandbox/__init__.py`) | containers on your Docker host |
-| Slack | managed app (`channels/slack.py`) | your Bolt app, Socket Mode or signed HTTP |
-| Wake-ups and housekeeping | runtime schedules; `schedules/housekeeping.py` every 15 minutes | in-process waker and maintenance loop |
-| Skills | synced to Context Hub; binary files ship as deployment files | read from the checkout |
-
-**Models.** Claude Opus 5.5 is the default, and any tool-calling model with vision works. A
-registry keyed by exact model id sets effort, tool search and output limits per role: lead,
-helper, look, tool selector and learning. The optional [LangSmith Gateway](docs/models.md) uses
-each provider's native route, so caching and context editing keep working. Every call is metered
-per job, helper and role, and LangSmith traces every run.
-
-Go deeper: [Architecture](docs/architecture/README.md) ·
-[Orchestration](docs/architecture/orchestration.md) ·
-[Context and failures](docs/architecture/context-and-failures.md).
-
-</details>
-
-## FAQ
-
-**Can it use my brand instead of LangChain's?** Yes, that's the whole point of the brand pack. Add
-yours and every output follows it.
-
-**Which models does it work with?** Claude Opus 5.5 by default. OpenAI and Google models work
-through the same registry, and so do any OpenAI-compatible endpoint and the LangSmith Gateway.
-See [Models](docs/models.md).
-
-**Do I need Slack?** No. You can use the terminal (`design-agent ask`), the self-hosted HTTP API,
-or a Managed Deep Agents deployment's API.
-
-**Can the agent reach the internet or my keys?** No. The sandbox has no network by default and
-never holds a credential. Host tools do the fetching, generating and delivering for it.
-
-**How do I know the output is any good?** Every file goes through the checks before you get it,
-and the [eval set](docs/evals.md) grades outputs, copy and behaviour without a model judging taste.
+**Build yours.** Fork the repo and ask your coding agent to set it up. [Get started](#get-started).
 
 ## Built with
 
@@ -286,18 +186,6 @@ Also: [LangSmith](https://smith.langchain.com) ·
 [FFmpeg](https://ffmpeg.org) · [D2](https://d2lang.com) · [Apache ECharts](https://echarts.apache.org) ·
 [sharp](https://sharp.pixelplumbing.com). Logos belong to their owners. HyperFrames and Paper are
 partner projects we build on.
-
-## Build on it
-
-| Want to change or explore | Start here |
-| --- | --- |
-| Instructions, skills and taste | [instructions.md](instructions.md) · [skills/](skills/) · [Customization](docs/customization.md) |
-| Models and cost | [Models](docs/models.md) · [Context and failures](docs/architecture/context-and-failures.md) |
-| Background work, wake-ups, pipelines | [Orchestration](docs/architecture/orchestration.md) |
-| The sandbox and the checks | [sandbox/](sandbox/) · [workspace/tools/](workspace/tools/README.md) |
-| Evals | [Evals](docs/evals.md) |
-| Running it day to day | [Operations](OPERATIONS.md) |
-| Contributing | [Contributing](CONTRIBUTING.md) · [Agent instructions](AGENTS.md) · [Coding-agent skills](.agents/skills/) |
 
 ---
 

@@ -16,6 +16,9 @@
 
 ### Added
 
+- Skills for coding agents to deploy, customize, evaluate, troubleshoot and update Design Agent,
+  routed from `AGENTS.md`, with a test that every skill is routed and names only real commands; a
+  map of every document (`docs/README.md`) and `llms.txt`.
 - One shared Deep Agents assembly for Managed Deep Agents, the CLI and the self-hosted path, with
   an exact-id model capability registry (Claude Opus 5.5 by default, direct providers, optional
   LangSmith Gateway).
