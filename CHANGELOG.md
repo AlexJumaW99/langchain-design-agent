@@ -11,6 +11,10 @@
 - The sample brand sets everything in Geist (Light headlines with tight tracking) with Fragment Mono
   for labels, both OFL, in place of Fraunces, Inter and IBM Plex Mono. They are staged into each
   sandbox with the brand, so no sandbox rebuild or republish is needed.
+- Paper exports reach the project again: Paper Desktop now writes an export to its Downloads folder
+  and answers with paths, so the host (Local) or the bridge (Bridged, returning the bytes) reads
+  back the files that export just wrote, saves them in the project's `renders/` and removes them
+  from Downloads.
 - The product spec moved to `docs/spec.md`.
 - `langsmith:anthropic/*` and `langsmith:openai/*` models use the LangSmith Gateway's native
   routes, so prompt caching, context editing, tool search and effort work through the gateway.
