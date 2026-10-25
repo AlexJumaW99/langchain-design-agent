@@ -1,46 +1,101 @@
 <div align="center">
   <p>
-    <a href="https://www.langchain.com/?utm_source=github&utm_medium=readme&utm_campaign=design-agent">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/logos/langchain-company-dark.svg">
-        <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/logos/langchain-company-light.svg" alt="LangChain" width="152">
-      </picture>
-    </a>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/logos/langchain-company-dark.svg">
+      <a href="https://www.langchain.com/?utm_source=github&utm_medium=readme&utm_campaign=design-agent"><img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/logos/langchain-company-light.svg" alt="LangChain" width="152"></a>
+    </picture>
   </p>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/header-dark.png">
-    <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/header-light.png" alt="Design Agent: one design brain for your whole company" width="100%">
+    <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/header-light.png" alt="Content Studio: one design brain for your whole company" width="100%">
   </picture>
   <p>
-    <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/license-Apache%202.0-7FC8FF.svg?variant=outline&logo=lu:Scale&mode=dark"><img src="https://shieldcn.dev/badge/license-Apache%202.0-006DDD.svg?variant=outline&logo=lu:Scale&mode=light" alt="License: Apache 2.0"></picture></a>
-    <a href="https://www.python.org"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/python-3.11%2B-7FC8FF.svg?variant=outline&logo=python&mode=dark"><img src="https://shieldcn.dev/badge/python-3.11%2B-006DDD.svg?variant=outline&logo=python&mode=light" alt="Python 3.11+"></picture></a>
-    <a href="https://github.com/langchain-ai/deepagents"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/built%20on-Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Layers&mode=dark"><img src="https://shieldcn.dev/badge/built%20on-Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Layers&mode=light" alt="Built on Deep Agents"></picture></a>
-    <a href="https://docs.langchain.com/langsmith/python/managed-deep-agents-overview?utm_source=github&utm_medium=readme&utm_campaign=design-agent"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Rocket&mode=dark"><img src="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Rocket&mode=light" alt="Deploy with Managed Deep Agents"></picture></a>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/license-Apache%202.0-7FC8FF.svg?variant=outline&logo=lu:Scale&mode=dark"><a href="LICENSE"><img src="https://shieldcn.dev/badge/license-Apache%202.0-006DDD.svg?variant=outline&logo=lu:Scale&mode=light" alt="License: Apache 2.0"></a></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/python-3.11%2B-7FC8FF.svg?variant=outline&logo=python&mode=dark"><a href="https://www.python.org"><img src="https://shieldcn.dev/badge/python-3.11%2B-006DDD.svg?variant=outline&logo=python&mode=light" alt="Python 3.11+"></a></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/built%20on-Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Layers&mode=dark"><a href="https://github.com/langchain-ai/deepagents"><img src="https://shieldcn.dev/badge/built%20on-Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Layers&mode=light" alt="Built on Deep Agents"></a></picture>
+    <picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-7FC8FF.svg?variant=outline&logo=lu:Rocket&mode=dark"><a href="https://docs.langchain.com/langsmith/python/managed-deep-agents-overview?utm_source=github&utm_medium=readme&utm_campaign=design-agent"><img src="https://shieldcn.dev/badge/deploy-Managed%20Deep%20Agents-006DDD.svg?variant=outline&logo=lu:Rocket&mode=light" alt="Deploy with Managed Deep Agents"></a></picture>
   </p>
   <p>
-    <b><a href="#quickstart">Distribute the design agent to your team →</a></b> ·
+    <b><a href="#quickstart">Distribute Content Studio to your team →</a></b> ·
     <a href="#try-it-locally">Try it locally, no keys needed</a> ·
+    <a href="https://www.langchain.com/blog/how-we-built-our-design-agent?utm_source=github&utm_medium=readme&utm_campaign=design-agent">How we built it</a> ·
     <a href="docs/README.md">Docs</a>
   </p>
 </div>
 
-**The design agent LangChain runs, open source.** Add your brand and deploy it to your team's Slack
-with Managed Deep Agents. Anyone can ask it like they'd ask a designer, attach what they have, and
+**Content Studio is the design agent LangChain runs, now open source.** Add your brand and deploy it
+to your team's Slack with Managed Deep Agents. Anyone can ask it like they'd ask a designer, attach what they have, and
 get finished, on-brand files back, from a resized ad to a launch film.
 
 Since August it has shipped over 3,000 assets for us, posts with its work drew about 4.5M views on
-X, and three in four requests come from outside marketing.
+X, and three in four requests come from outside marketing. [How we built it](https://www.langchain.com/blog/how-we-built-our-design-agent?utm_source=github&utm_medium=readme&utm_campaign=design-agent) goes deeper
+into each part.
 
 ## See it work
 
+We asked Content Studio for its own launch film. It went full Rocky.
+
+https://github.com/user-attachments/assets/1874d6ea-2457-4349-a6c4-45ada6312f13
+
+<p align="center"><sub>From a 1-bit chick to champion in 47 seconds.</sub></p>
+
+## How it works
+
+Content Studio is a [Deep Agents](https://github.com/langchain-ai/deepagents) agent deployed on
+[Managed Deep Agents](https://docs.langchain.com/langsmith/python/managed-deep-agents-overview?utm_source=github&utm_medium=readme&utm_campaign=design-agent).
+Managed Deep Agents runs the infrastructure: Slack, sandboxes, memory, schedules and tracing. This
+repo is the design agent on top. The model makes the creative calls, and code renders, checks and
+delivers.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/architecture-dark.png">
+    <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/architecture-light.png" alt="Content Studio on Managed Deep Agents: a Slack thread goes to the main agent, which reads skills and the wiki, keeps team and personal memory, uses managed tools and MCP servers with each person's own account, and works in a sandbox per thread with Chromium, ffmpeg, HyperFrames, motion-studio and async subagents in parallel, then posts the film back to the same thread" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>How we run it at LangChain. Your copy starts with the integrations you turn on (<a href="docs/integrations.md">Integrations</a>).</sub></p>
+
+- **Slack.** Mention it in a thread with a brief and any files. MDA's Slack app hands the message
+  and attachments to the agent, and the finished files come back to the same thread. While it
+  works, one message updates step by step, a footer shows what's running and the cost so far, and
+  anything you add mid-job reaches the work in progress.
+- **A computer per thread.** Each thread gets its own LangSmith sandbox: a Linux machine with
+  Chrome, FFmpeg, [HyperFrames](https://hyperframes.heygen.com), D2 and your fonts, built from one
+  pinned recipe ([`sandbox/setup.sh`](sandbox/)). Everything it makes is code in a project folder
+  there (a slide is HTML, a film is an animation timeline), so a change is an edit and a re-render,
+  not a restart. API keys never enter it.
+- **Skills and a design wiki.** The always-on prompt is small. For each ask it first reads a router
+  skill that picks the right workflow, from a resized ad to a launch film, out of 35
+  [skills](skills/). The wiki holds the craft (type, colour, layout, charts) and your brand pack
+  holds the facts. Skills load only when a job needs them, served by MDA from Context Hub.
+- **Your tools.** Video is built in HyperFrames, which treats a film as a web page on a timeline.
+  [Paper](https://paper.design) is a shared canvas where you edit a storyboard or layout directly.
+  Image, voice and music models run as tools outside the sandbox, and MCP servers like Notion,
+  Linear, GitHub and Figma connect through MDA, with each person signed in as themselves.
+- **Async subagents.** On a big job the main agent plans, splits the work and starts subagents in
+  the background on the same sandbox and files. MDA wakes it when one finishes, fails or stalls, so
+  it never sits waiting and can keep talking to you. Films go storyboard, animatic, then
+  production, and code makes every part pass review before assembly.
+- **Memory.** Tell it a rule once ("never use orange on LinkedIn") and it saves it that turn. MDA
+  gives it two layers of files: team memory everyone shares and personal memory for each person,
+  and each layer's index loads into every run.
+- **It gets better.** After a job, `learn_from_job` writes notes on what worked against the skill
+  it used. Later jobs read and rate those notes, and the ones that don't hold up are dropped.
+
+### Watch it explain itself
+
+We asked it to explain its own harness as a nature documentary, starring a pixel parrot. It walks
+through the computer, the tools and the context behind its work.
+
 https://github.com/user-attachments/assets/0664d09d-2ab2-41fd-b2ba-f91c96121e20
 
-<p align="center"><sub>One Slack request for a launch film: the plan, the storyboard, helpers rendering in parallel, the checks and the final cut.</sub></p>
+<p align="center"><sub>Storyboarded, built and narrated by the agent, in one Slack thread.</sub></p>
 
 <details>
-<summary>The prompts that made this film</summary>
+<summary>The prompt that made this film</summary>
 
-The agent made it in one Slack thread, from this ask and a few rounds of notes:
+The agent made it from this ask and a few rounds of notes:
 
 > Make a short explainer of how you create videos in code, end to end, for our blog post on the
 > media harness we built on Deep Agents. Narrate it like a David Attenborough nature documentary,
@@ -50,28 +105,38 @@ The agent made it in one Slack thread, from this ask and a few rounds of notes:
 
 </details>
 
+Read the [architecture](docs/architecture/README.md), or start changing it:
+[instructions.md](instructions.md) · [skills/](skills/) · [Customization](docs/customization.md) ·
+[Evals](docs/evals.md) · [Operations](OPERATIONS.md) · [Contributing](CONTRIBUTING.md).
+
+## Why it doesn't look like AI
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/same-prompt-dark.png">
+    <img src="https://github.com/langchain-ai/design-agent/raw/main/docs/assets/readme/same-prompt-light.png" alt="The same prompt for a hiring chart to a local coding agent with a brand skill and to Content Studio: a broken logo lockup, a generic font, no axis and an off-brand bar on the left; a clean lockup, the brand typeface, an axis with gridlines and brand-blue bars on the right" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>The same prompt to a local coding agent with a brand skill, and to Content Studio.</sub></p>
+
+- **It looks at its work.** It renders, then looks at the image before it posts anything.
+- **Your brand is code.** Layouts only take your tokens: your colours, fonts and spacing.
+- **It checks what a machine can count.** Colours, fonts, contrast, sizes and chart math are checked
+  in code on every render. Taste stays with your designers.
+
+<p align="center">
+  <img src="docs/assets/readme/hero.png" alt="The agent's computer: a Slack request for a launch film, project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
+</p>
+
+## Quickstart
+
 | Building it yourself | Starting here |
 | --- | --- |
 | Months on a harness, a sandbox, skills and a Slack UX | Fork it, add your brand, deploy with one command |
 | Polished work that looks like a hundred others | Work that follows your brand, checked on every render |
 | Design requests wait in a queue | Anyone asks in Slack: a graphic in minutes, a long deck overnight |
 | Every team fixes the same mistakes | Fix a skill once, and every asset after it follows |
-
-## What's already built
-
-- **Your designers' judgment:** 35 skills and a design wiki for stills, decks, charts, diagrams,
-  storyboards, motion, sound and thumbnails, and your brand as one pack of colours, fonts, logos
-  and voice, checked in code on every render.
-- **A designer's computer for every thread,** with Chrome, FFmpeg,
-  [HyperFrames](https://hyperframes.heygen.com), D2 and your fonts, plus a shared
-  [Paper](https://paper.design) canvas for storyboards and layouts. Keys stay outside it.
-- **Slack that holds up on long jobs:** a lead that plans and gives an ETA, takes notes mid-job,
-  hands long work to helpers (subagents) running in parallel, and asks before anything goes
-  public.
-- **Everything to run it on Managed Deep Agents:** a sandbox per thread, the Slack app, schedules
-  and tracing, plus evals built from real requests.
-
-## Quickstart
 
 This repository is a [Managed Deep Agents](https://docs.langchain.com/langsmith/python/managed-deep-agents-overview?utm_source=github&utm_medium=readme&utm_campaign=design-agent) project, so it deploys to your LangSmith
 workspace as it is. You need MDA access and a model key:
@@ -119,19 +184,6 @@ last line tells you what the run cost:
 uv run design-agent ask "A LinkedIn card announcing our design review service, 1200x627."
 ```
 
-## Why it doesn't look like AI
-
-- **It looks at its work.** It renders, then looks at the image before it posts anything.
-- **Your brand is code.** Layouts only take your tokens: your colours, fonts and spacing.
-- **It checks what a machine can count.** Colours, fonts, contrast, sizes and chart math are checked
-  in code on every render. Taste stays with your designers.
-- **Big pieces start cheap.** A film starts as a plan and a storyboard, and nothing renders until you
-  say yes.
-
-<p align="center">
-  <img src="docs/assets/readme/hero.png" alt="The agent's computer: a Slack request for a launch film, project folders, a HyperFrames render in the terminal, the film preview, layers and references" width="100%">
-</p>
-
 ## Make it yours
 
 | Want | Add | Guide |
@@ -173,19 +225,11 @@ endpoint and the LangSmith Gateway work too. See [Models](docs/models.md).
 **Can I run it on my own servers?** Yes. It's Apache 2.0, and [Self-hosting](docs/self-hosting.md)
 runs the same agent with Docker, an HTTP API and your own Slack app.
 
+**Why two names?** Content Studio is what we call the agent at LangChain, and the name its Slack app
+gets unless you set `DESIGN_AGENT_SLACK_NAME`. The repository, package and command are `design-agent`.
+
 **Does it replace a designer?** No. It takes the repetitive requests, so designers spend their time on
 the work only they can do, and their judgment lives on in its skills and checks.
-
-## How it works
-
-The model makes the creative calls. Code does everything that has to be exactly right: rendering,
-measuring, checking, delivering files and holding your keys. It's built on the
-[Deep Agents](https://github.com/langchain-ai/deepagents) harness and runs on
-[Managed Deep Agents](https://docs.langchain.com/langsmith/python/managed-deep-agents-overview?utm_source=github&utm_medium=readme&utm_campaign=design-agent).
-
-Read the [architecture](docs/architecture/README.md), or start changing it:
-[instructions.md](instructions.md) · [skills/](skills/) · [Customization](docs/customization.md) ·
-[Evals](docs/evals.md) · [Operations](OPERATIONS.md) · [Contributing](CONTRIBUTING.md).
 
 **Build your own.** Fork it, add your brand tokens, fonts and skills, and deploy it to your team's
 Slack. [Quickstart](#quickstart). If it's useful, a star helps other teams find it.
