@@ -35,7 +35,7 @@ into each part.
 
 We asked Content Studio for its own launch film. It went full Rocky.
 
-https://github.com/user-attachments/assets/1874d6ea-2457-4349-a6c4-45ada6312f13
+https://github.com/user-attachments/assets/ee5b98e0-7ec6-4b24-ada6-1f27087947a3
 
 <p align="center"><sub>From a 1-bit chick to champion in 47 seconds.</sub></p>
 
@@ -88,7 +88,7 @@ delivers.
 We asked it to explain its own harness as a nature documentary, starring a pixel parrot. It walks
 through the computer, the tools and the context behind its work.
 
-https://github.com/user-attachments/assets/0664d09d-2ab2-41fd-b2ba-f91c96121e20
+https://github.com/user-attachments/assets/65eac8e4-0fac-4a5a-9cca-02e26a0a8baa
 
 <p align="center"><sub>Storyboarded, built and narrated by the agent, in one Slack thread.</sub></p>
 
